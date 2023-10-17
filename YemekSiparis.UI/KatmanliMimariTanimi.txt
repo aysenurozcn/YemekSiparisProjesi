@@ -1,0 +1,13 @@
+﻿
+1-UI ??=>User Interface- Kullanıcı arayüzü
+
+Kullanıcıya gösterilmek istenen yapıların kodlandığı katmandır
+=> Bütün katmanlar bu katmana hizmet vermek için vardır. Bundan dolayı Refernaslara diğer katmanlar çağrılmalıdır
+
+2-DLL??=> Data Logic Layer-veri katmanı
+Veritabanı işlemlerinin tanımlandığı katmandır
+=> Data ların DB den çekildiği ve dataların DB ye gönderildiği katmandır
+
+3-BLL ??=>Bussiness Logic Layer-iş katmanı
+Projenin asıl algoritmesının kodlandığı, bütün iş yapısının kodlandığı en önemli katmandır. Bu katman UI katmanına hizmet eder ama bu katman olmadan proje bir işleve sahip değildir
+=> DLL katmanı bu katmanda çok sık kullanılmak zorundadır. Bundan dolayı Referanslar kısmında DLL katmanı dahil edilmelidir

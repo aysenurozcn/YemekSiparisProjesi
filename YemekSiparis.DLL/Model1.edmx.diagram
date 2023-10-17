@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="95361e87fe3249e3ba0c9f59d0341e79" Name="Diagram1">
+        <EntityTypeShape EntityType="YemekSiparisDBModel.Adresler" Width="1.5" PointX="0.75" PointY="38.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.AlinanUrunFisleri" Width="1.5" PointX="3.75" PointY="29.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.AlinanUrunler" Width="1.5" PointX="1.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.Fiyatlar" Width="1.5" PointX="5.25" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.Ilceler" Width="1.5" PointX="1.5" PointY="34" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.Kullanicilar" Width="1.5" PointX="0.75" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.Kuryeler" Width="1.5" PointX="0.75" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.MenuDetay" Width="1.5" PointX="5.25" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.Menuler" Width="1.5" PointX="3" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.Musteriler" Width="1.5" PointX="1.5" PointY="44.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.Personeller" Width="1.5" PointX="1.5" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.Sehirler" Width="1.5" PointX="3.75" PointY="34.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.Siparisler" Width="1.5" PointX="3" PointY="39.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.Subeler" Width="1.5" PointX="1.5" PointY="29.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.SubeYemekleri" Width="1.5" PointX="8.25" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.Tedarikciler" Width="1.5" PointX="1.5" PointY="53.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.YemekKatagorileri" Width="1.5" PointX="0.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.Yemekler" Width="1.5" PointX="3" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.YemekResimleri" Width="1.5" PointX="5.25" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.Yetkiler" Width="1.5" PointX="1.5" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.Iadeler" Width="1.5" PointX="8.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.SiparisDetay" Width="1.5" PointX="8.25" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="YemekSiparisDBModel.Zaiyatlar" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Adresler_Ilceler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Adresler_Musteriler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Siparisler_Adresler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_AlinanUrunFisleri_AlinanUrunler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_AlinanUrunFisleri_Subeler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_AlinanUrunFisleri_Tedarikciler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Tedarikciler_AlinanUrunler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Fiyatlar_Yemekler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Musteriler_Ilceler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Sehirler_Ilceler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Subeler_Ilceler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Kullanicilar_Personeller" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Kullanicilar_Yetkiler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_MenuDetay_Kullanicilar" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Menuler_Kullanicilar" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Personeller_Kullanicilar" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Kuryeler_Personeller" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Siparisler_Kuryeler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_MenuDetay_Menuler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_MenuDetay_Yemekler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Iadeler_Menuler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_SiparisDetay_Menuler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_SubeYemekleri_Menuler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Zaiyatlar_Menuler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Siparisler_Musteriler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Personeller_Subeler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Siparisler_Personeller" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Zaiyatlar_Personeller" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Iadeler_Siparisler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_SiparisDetay_Siparisler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Siparisler_Subeler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Zaiyatlar_Siparisler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_SubeYemekleri_Subeler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_SubeYemekleri_Yemekler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Yemekler_YemekKatagorileri" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Iadeler_Yemekler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_SiparisDetay_Yemekler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_YemekResimleri_Yemekler" ManuallyRouted="false" />
+        <AssociationConnector Association="YemekSiparisDBModel.FK_Zaiyatlar_Yemekler" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
